@@ -1,0 +1,168 @@
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,400;9..40,500;9..40,700&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "DM Sans", sans-serif;
+}
+#landingMainBlock {
+  width: 100%;
+  height: 100vh;
+  overflow: hidden;
+  padding: 5% 10%;
+  background-color: #2f1893;
+  color: #fff;
+}
+button {
+  transition: 0.3s all ease-in-out;
+  cursor: pointer;
+}
+#landingMainBlock > nav > header {
+  display: flex;
+  height: 10%;
+  padding: 2% 0;
+}
+#landingMainBlock > nav > header > h2 {
+  width: 50%;
+}
+#landingMainBlock > nav > header > ul {
+  display: flex;
+  list-style: none;
+  width: 50%;
+  justify-content: space-between;
+  align-items: center;
+}
+#landingMainBlock > nav > header > ul a {
+  text-decoration: none;
+  color: #fff;
+}
+#landingMainBlock > nav > header > ul a:active {
+  color: lightslategray;
+}
+#landingMainBlock > nav > header > ul a:visited {
+  color: lightslategray;
+}
+#landingMainBlock > nav > header > ul button {
+  background-color: #e93a7d;
+  padding: 8px 15px;
+  color: #fff;
+  border-radius: 20px;
+  border: none;
+}
+#landingMainBlock > nav > header > ul button:hover {
+  background-color: #fff;
+  color: #e93a7d;
+  transition: 0.4s all ease-in-out;
+}
+#landingMainBlock > article {
+  height: 90%;
+}
+#landingMainBlock > article > aside {
+  display: flex;
+  gap: 20px;
+  height: 90%;
+  align-items: center;
+  justify-content: center;
+}
+#landingMainBlock > article > aside h1 {
+  font-size: 3em;
+}
+#landingMainBlock > article > aside > div {
+  width: 100%;
+}
+#landingMainBlock > article > aside > div:first-child {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+#landingMainBlock > article > aside > div:first-child button {
+  background-color: #e93a7d;
+  color: #fff;
+  padding: 10px 20px;
+  border: 1px solid #e93a7d;
+  border-radius: 20px;
+}
+#landingMainBlock > article > aside > div:first-child button:hover {
+  color: #e93a7d;
+  background-color: #fff;
+  transition: 0.4s all ease-in-out;
+}
+#landingMainBlock > article > aside > div p {
+  padding: 0 25% 10% 0;
+}
+#landingMainBlock > article > aside > div:first-child > h1 {
+  color: #fff;
+}
+/* form part */
+#landingMainBlock > article > aside > div:last-child {
+  width: 90%;
+  height: 100%;
+  margin-left: 5%;
+  background-color: #fff;
+  border-radius: 5px;
+}
+form {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+  padding: 5% 10%;
+}
+#landingMainBlock > article > aside > div:last-child h1 {
+  color: #2f1893;
+  font-size: 2em;
+}
+form div {
+  width: 100%;
+  text-align: center;
+  padding: 0 5%;
+  color: grey;
+}
+form > div > input {
+  padding: 10px 15px;
+  width: 100%;
+  border-radius: 20px;
+  border: 1px solid #5b565661;
+  box-shadow: 0px 0px 1px 1px #5b565661;
+}
+.checkBoxblock {
+  text-align: left;
+  padding: 2% 0 0 8%;
+  color: grey;
+}
+.checkBoxblock > span {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.checkBoxblock input {
+  width: 15px;
+  height: 15px;
+  accent-color: #25dac4;
+}
+form > div > button {
+  width: 95%;
+  padding: 10px;
+  border-radius: 20px;
+}
+form button {
+  background-color: #2f1893;
+  color: #fff;
+  border: 1px solid #2f1893;
+}
+form button:hover {
+  color: #2f1893;
+  background-color: #fff;
+  transition: 0.4s all ease-in-out;
+}
+.loginBtnBlock button {
+  background-color: #1da1f2;
+  border: 1px solid #1da1f2;
+}
+.loginBtnBlock button:hover {
+  color: #1da1f2;
+  background-color: #fff;
+  transition: 0.4s all ease-in-out;
+}
